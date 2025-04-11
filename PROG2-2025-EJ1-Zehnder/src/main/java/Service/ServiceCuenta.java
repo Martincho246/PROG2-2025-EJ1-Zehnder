@@ -9,7 +9,6 @@ public class ServiceCuenta {
     private static ServiceCuenta instancia;
     private List<Cuenta> cuentas;
 
-    // Constructor privado
     private ServiceCuenta() {
         cuentas = new ArrayList<>();
     }
