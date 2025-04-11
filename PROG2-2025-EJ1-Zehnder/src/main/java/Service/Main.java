@@ -48,7 +48,7 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             double saldo = logica.consultarSaldo(i);
             int ops = logica.consultarOperaciones(i);
-            System.out.printf("Cuenta %d → Saldo: $%.2f | Operaciones: %d\n", i, saldo, ops);
+            System.out.printf("Cuenta " + i + " → Saldo: $" + String.format("%.2f", saldo) + " | Operaciones: " + ops);
         }
     }
 }
