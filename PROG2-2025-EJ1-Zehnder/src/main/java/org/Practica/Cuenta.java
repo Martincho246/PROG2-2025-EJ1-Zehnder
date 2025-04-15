@@ -17,7 +17,7 @@ public abstract class Cuenta implements IGestionSaldo {
     }
 
     @Override
-    public synchronized double getOperaciones() {
+    public synchronized int getOperaciones() {
         synchronized (this) {
             return operaciones;
         }
